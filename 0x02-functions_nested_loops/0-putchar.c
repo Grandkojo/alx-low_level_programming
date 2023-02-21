@@ -1,12 +1,13 @@
+# include "main.h"
 # include <stdio.h>
 # include <stdlib.h>
-# include "main.h"
 
 /**
  * main - Entry point
  *
  * Return: always 0 (Success)
  */
+void _putchar(void);
 int main(void)
 {
 	char word[9] = "_putchar";
