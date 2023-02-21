@@ -14,5 +14,6 @@ int main(void)
 
 	for (number = 0; number < 9; number++)
 		_putchar(word[i];
-	_putchar('\n')
-	retun (0);
+	_putchar('\n');
+	return (0);
+}
