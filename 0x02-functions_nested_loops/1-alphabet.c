@@ -1,11 +1,9 @@
 # include "main.h"
-# include <stdio.h>
-# include <stdlib.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0 (Success)
+ * print_alphabet- Check description
+ *Description: It prints the alphabet in lowercase followed by a new line
+ *Return: Nothing
  */
 void print_alphabet(void)
 {
