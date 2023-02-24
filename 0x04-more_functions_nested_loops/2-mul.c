@@ -2,7 +2,7 @@
 
 /**
  * mul - Check dscription
- * Descriptio: Multiplies two integers
+ * Description: Multiplies two integers
  * @a: input character
  * @b: input character
  * Return: Product of the two numbers
