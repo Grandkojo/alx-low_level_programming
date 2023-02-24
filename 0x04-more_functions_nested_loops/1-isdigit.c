@@ -19,4 +19,5 @@ int _isdigit(int c)
 			ret = 0;
 	}
 	return (num);
+	_putchar('\n');
 }
