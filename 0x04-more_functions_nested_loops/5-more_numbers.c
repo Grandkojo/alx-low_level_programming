@@ -10,7 +10,7 @@ void more_numbers(void)
 	int times = 0;
 	int num;
 
-	while (times <= 10)
+	while (times < 11)
 	{
 		for (num = 1; num <= 14; num++)
 		{
@@ -18,7 +18,7 @@ void more_numbers(void)
 				_putchar(num / 10 + '0');
 
 			_putchar(num % 10 + '0');
-	
+
 		}
 	}
 	times++;
