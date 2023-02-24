@@ -8,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	int num;
+	int num = 0;
 
 	char C;
 
@@ -16,8 +16,8 @@ int _isupper(int c)
 	{
 		if (c == C)
 			num = 1;
-		else
-			num = 0;
+			break;
 	}
+
 	return (num);
 }
