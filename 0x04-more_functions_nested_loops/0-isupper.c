@@ -10,9 +10,9 @@ int _isupper(int c)
 {
 	int num = 0;
 
-	char C;
+	char C = 'A';
 
-	for (C = 'A'; C <= 'Z'; C++)
+	for (; C <= 'Z'; C++)
 	{
 		if (c == C)
 			num = 1;
