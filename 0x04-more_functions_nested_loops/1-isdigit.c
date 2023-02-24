@@ -19,5 +19,5 @@ int _isdigit(int c)
 		else
 			ret = 0;
 	}
-	return (num);`
+	return (ret);
 }
