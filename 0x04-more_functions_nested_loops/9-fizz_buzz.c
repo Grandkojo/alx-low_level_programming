@@ -1,6 +1,6 @@
 # include <stdio.h>
 # include <stdlib.h>
-
+# include "main.h"
 /**
  * main - Fizz Buzz program
  *
@@ -23,6 +23,6 @@ int main(void)
 		else
 			printf("%d ", number);
 	}
-	printf("Buzz\n");
+	_putchar('\n');
 	return (0);
 }
