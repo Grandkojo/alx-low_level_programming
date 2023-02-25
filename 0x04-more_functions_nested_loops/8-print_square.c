@@ -15,7 +15,7 @@ void print_square(int size)
 	{
 		for (length = 0; length < size; length++)
 		{
-			for (width = 0; width <= length; width++)
+			for (width = 0; width < size; width++)
 				_putchar(hash);
 		_putchar(hash);
 		_putchar('\n');
