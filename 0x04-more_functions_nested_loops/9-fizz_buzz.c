@@ -23,6 +23,6 @@ int main(void)
 		else
 			printf("%d ", number);
 	}
-	printf("Buzz\n");
+	printf("\n");
 	return (0);
 }
