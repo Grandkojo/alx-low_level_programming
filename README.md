@@ -1,1 +1,1 @@
-This is a readme for c programming
+This is a readme for c nested loops
