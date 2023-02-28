@@ -4,7 +4,7 @@
  * _strlen - Check description
  * @s: input string
  * Description: print the length of a string
- * return: Nothing
+ * Return: Always l Success
  */
 int _strlen(char *s)
 {
