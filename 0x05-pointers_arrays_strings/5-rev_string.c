@@ -2,6 +2,7 @@
 
 /**
  * _strlen - returns the length of a given string
+ * Description: returns the length of a given string
  * @s: string to check the length of
  * Return: returns the length of string
  */
@@ -15,10 +16,11 @@ int _strlen(char *s)
 	return (i);
 }
 
-/***
+/**
  * rev_string - reverses string in place, without printing it
- * @s: string to reverse
- * Return: void
+ * Description: reverses string in place
+ * @s: input character
+ * Return: nothing
  */
 void rev_string(char *s)
 {
