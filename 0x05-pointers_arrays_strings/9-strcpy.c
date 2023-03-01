@@ -9,7 +9,7 @@
  * @src: A pointer to source string to copy from
  * Return: pointer to dest
  */
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	char *aux = dest;
 
