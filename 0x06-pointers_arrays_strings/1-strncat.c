@@ -32,5 +32,6 @@ char *_strncat(char *dest, char *src, int n)
 		*dest++ = *src++;
 
 	*dest = '\0';
+	_putchar('\n');
 	return (temp);
 }
