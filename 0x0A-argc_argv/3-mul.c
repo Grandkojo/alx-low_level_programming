@@ -10,8 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int count;
-	int mul = 1;
+	int mul;
 	int num1;
 	int num2;
 
