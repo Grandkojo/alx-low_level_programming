@@ -19,7 +19,12 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
+	else if (argc == 2)
+	{
+		num1 = atoi(argv[1]);
+		mul = num1;
+		printf("%d", mul);
+	}
 	else
 	{
 		num1 = atoi(argv[1]);
