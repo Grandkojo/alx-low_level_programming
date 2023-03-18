@@ -38,13 +38,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	int i = 0;
 
-	for (i = 0; i < s1_len; i++)
+	for (i = 0; i < (s1_len + n); i++)
 	{
-		result[i] = s1[i];
-	}
-	for (i = 0; i < n; i++)
-	{
-		result[s1_len + 1] = s2[1];
+		if (i < s1_len)
+			result[i] = *s1, s1++;
+		else
+			result[i] = *s2, s2++;
 	}
 	result[s1_len + n] = '\0';
 	return (result);
