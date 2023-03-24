@@ -1,7 +1,7 @@
 # include <stdio.h>
 # include <stdarg.h>
 # include <stdlib.h>
-# include "main.h"
+# include "variadic_functions.h"
 
 /**
  * sum_them_all - a function that sums all its parameters
