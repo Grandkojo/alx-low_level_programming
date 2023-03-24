@@ -20,7 +20,8 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	char *str_value;
-	int int_value, i = 0;
+	int int_value, 
+	int i = 0;
 	char current_format;
 
 	va_start(args, format);
