@@ -21,8 +21,9 @@ typedef struct list_s
 } list_t;
 
 size_t print_list(const list_t *);
-int _strlen(const char *);
+unsigned int _strlen(const char *);
 int _putchar(char);
 size_t list_len(const list_t *);
+list_t *add_node(list_t **, const char *);
 
 #endif
